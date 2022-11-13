@@ -21,7 +21,9 @@
 body{
 	color: #fff;
 	background: var(--background);
+    font-family: Poppins,"sans-serif";
 }
+
 
 /*NAV BAR*/
 .navbar{
@@ -125,12 +127,36 @@ body{
 
 /* Skills view */
 
+.header_skills{
+	padding-top: 2vh;
+	font-family: 'Roboto' ,sans-serif;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
 .titulo_skills {
 	width: min-content;
     white-space: nowrap;
     overflow: hidden;
     margin: -0.2rem;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--primary);
+}
+
+.presentation_skills {
+	display: flex;
+    flex-direction: row;
+    height: 100%;
+	color: var(--color);
+	justify-content: space-evenly;
+}
+
+.container_skills p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	max-width: 75ch;
 }
