@@ -63,7 +63,7 @@ body{
 	padding-left: 40px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	width: 630px;
+	width: 50%;
 	height: 89vh;
 	text-align: justify;
 	margin: 0;
@@ -91,12 +91,6 @@ body{
 	height: 40px;
 }
 
-.imagen-principal{
-	width: 500px;
-	height: 400px;
-	border-radius: 600px;
-}
-
 .button-presentation{
 	background: none;
     border: 1px solid var(--primary);
@@ -112,8 +106,31 @@ body{
     cursor: pointer;
 }
 
-.imagen-container{
-	padding-top: 50px;
-	padding-left: 60px;
+.main {
+	width: 100%;
 }
 
+/* Imagen vista principal */
+
+.imagen-container{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.imagen-principal{
+	width: 500px;
+	height: 400px;
+	border-radius: 600px;
+}
+
+/* Skills view */
+
+.titulo_skills {
+	width: min-content;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: -0.2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+}
