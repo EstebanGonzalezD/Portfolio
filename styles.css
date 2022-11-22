@@ -160,3 +160,29 @@ body{
     margin-inline-end: 0px;
 	max-width: 75ch;
 }
+
+/*Projects*/
+
+.projects_header {
+	font-family: Roboto,sans-serif;
+	padding-top: 2vh;
+    margin-bottom: 1rem;
+    margin-left: 1.4rem;
+}
+
+.title_projects {
+	width: min-content;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: -0.2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    border-right: 2px solid var(--background);
+}
+
+.projects_container {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+}
