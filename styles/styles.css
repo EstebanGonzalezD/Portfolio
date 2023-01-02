@@ -125,7 +125,7 @@ body{
 	border-radius: 600px;
 }
 
-/* Skills view */
+/*#region SkillsPage*/
 
 .header_skills{
 	padding-top: 2vh;
@@ -161,7 +161,31 @@ body{
 	max-width: 75ch;
 }
 
-/*Projects*/
+.icons_skills_container_main{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    margin-top: 50px;
+}
+
+.icons_skills_container {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.icons_skills{
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+/*#endregion SkillsPage*/
+
+/*#region ProjectsPage*/
 
 .projects_header {
 	font-family: Roboto,sans-serif;
@@ -186,3 +210,4 @@ body{
     flex-direction: column;
     width: 100%;
 }
+/*#endregion ProjectsPage*/
